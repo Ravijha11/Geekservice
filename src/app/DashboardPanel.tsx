@@ -38,7 +38,7 @@ export default function DashboardPanel({
       >
         {/* Left: Info */}
         <div className="flex-1 p-8 flex flex-col justify-center bg-white/90">
-          <button onClick={onClose} className="absolute top-4 right-4 text-2xl text-gray-400 hover:text-gray-700 transition">&times;</button>
+          <button onClick={onClose} className="absolute top-4 right-4 text-2xl text-[var(--foreground)] hover:text-gray-700 transition">&times;</button>
           <h2 className="text-2xl md:text-3xl font-bold mb-2 text-gray-900">{title}</h2>
           <h3 className="text-2xl md:text-3xl font-bold mb-4 text-sky-600">{subtitle}</h3>
           <p className="mb-6 text-base md:text-lg text-gray-700">{description}</p>

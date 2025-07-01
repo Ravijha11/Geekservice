@@ -153,9 +153,6 @@ export default function Home() {
           return (
             <motion.div
               key={cat.title}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
               whileHover={{ scale: 1.06, boxShadow: "0 8px 32px rgba(6,102,220,0.10)", y: -6 }}
               transition={{ type: 'spring', stiffness: 300, damping: 24 }}
               className="flex flex-col items-center bg-white/70 backdrop-blur-md border border-gray-200 rounded-2xl p-6 sm:p-10 shadow transition cursor-pointer hover:border-sky-400 hover:bg-gradient-to-br hover:from-white/80 hover:to-sky-50 hover:shadow-xl group"
@@ -190,14 +187,14 @@ export default function Home() {
               <circle cx="30" cy="20" r="2" fill="#ffcc00" />
               <path d="M18 28c1.5 2 6.5 2 8 0" stroke="#ffcc00" strokeWidth="2" fill="none" strokeLinecap="round" />
             </svg>
-            <span className="text-lg sm:text-xl md:text-2xl font-bold text-white">Book Your Appointment</span>
+            <span className="text-lg sm:text-xl md:text-2xl font-bold text-[var(--foreground)]">Book Your Appointment</span>
           </a>
           <a href="#" className="flex items-center gap-3 sm:gap-4 no-underline group w-full sm:w-auto justify-center">
             <svg width="40" height="40" className="sm:w-12 sm:h-12" fill="none" viewBox="0 0 48 48">
               <path d="M24 24c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7 3.582 7 8 7z" stroke="#ffcc00" strokeWidth="3" fill="none" />
               <path d="M12 38c0-4.418 5.373-8 12-8s12 3.582 12 8" stroke="#ffcc00" strokeWidth="3" fill="none" />
             </svg>
-            <span className="text-lg sm:text-xl md:text-2xl font-bold text-white">Ask an Experts</span>
+            <span className="text-lg sm:text-xl md:text-2xl font-bold text-[var(--foreground)]">Ask an Experts</span>
           </a>
         </div>
       </section>
@@ -351,7 +348,7 @@ export default function Home() {
               Become a member and save money on
               today&apos;s service.
             </h2>
-            <p className="text-base sm:text-lg md:text-xl text-white font-normal">
+            <p className="text-base sm:text-lg md:text-xl text-[var(--foreground)] font-normal">
               Plus, get unlimited help with all your devices and 100+ included or discounted services.
             </p>
           </div>

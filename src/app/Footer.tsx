@@ -29,31 +29,31 @@ export default function Footer() {
         <div className="flex flex-wrap gap-4 sm:gap-6 text-sm sm:text-base font-serif justify-center items-center">
           <Link 
             href="/aboutus" 
-            className="flex items-center gap-1 hover:text-yellow-300 transition-colors duration-200 font-semibold"
+            className="flex items-center gap-1 text-white hover:text-yellow-300 transition-colors duration-200 font-semibold"
           >
             <span className="hidden sm:inline"><FaInfoCircle size={18} /></span> About Us
           </Link>
           <Link 
             href="/contactus" 
-            className="flex items-center gap-1 hover:text-yellow-300 transition-colors duration-200 font-semibold"
+            className="flex items-center gap-1 text-white hover:text-yellow-300 transition-colors duration-200 font-semibold"
           >
             <span className="hidden sm:inline"><FaPhoneAlt size={18} /></span> Contact Us
           </Link>
           <Link 
             href="/terms" 
-            className="flex items-center gap-1 hover:text-yellow-300 transition-colors duration-200 font-semibold"
+            className="flex items-center gap-1 text-white hover:text-yellow-300 transition-colors duration-200 font-semibold"
           >
             <span className="hidden sm:inline"><FaFileContract size={18} /></span> Terms &amp; Conditions
           </Link>
           <Link 
             href="/privacypolicy" 
-            className="flex items-center gap-1 hover:text-yellow-300 transition-colors duration-200 font-semibold"
+            className="flex items-center gap-1 text-white hover:text-yellow-300 transition-colors duration-200 font-semibold"
           >
             <span className="hidden sm:inline"><FaShieldAlt size={18} /></span> Privacy Policy
           </Link>
           <Link 
             href="/refundpolicy" 
-            className="flex items-center gap-1 hover:text-yellow-300 transition-colors duration-200 font-semibold"
+            className="flex items-center gap-1 text-white hover:text-yellow-300 transition-colors duration-200 font-semibold"
           >
             <span className="hidden sm:inline"><FaMoneyCheckAlt size={18} /></span> Refund Policy
           </Link>
