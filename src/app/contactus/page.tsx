@@ -14,8 +14,9 @@ export default function ContactUs() {
             <h2 className="text-xl sm:text-2xl font-bold font-serif mb-4">Get In Touch</h2>
             <p className="mb-4 font-serif text-sm sm:text-base">Contact us today for your tech and appliances support services. Book a service today! We&apos;re committed to your complete satisfaction with our service.</p>
             <p className="mb-2 font-serif font-bold text-sm sm:text-base">Address : <span className="font-normal">24th St, Coral Springs, FL 33065, United States</span></p>
+            <p className="mb-2 font-serif font-bold text-sm sm:text-base">Phone : <span className="font-normal">+1 (833) 573-2428</span></p>
             <p className="mb-6 font-serif font-bold text-sm sm:text-base">Email : <span className="font-normal">support@geek-services.com</span></p>
-            <button className="brand-button w-full sm:w-auto bg-yellow-400 text-[var(--foreground)] font-bold text-lg sm:text-xl px-6 sm:px-12 py-3 sm:py-4 rounded-lg shadow hover:bg-yellow-500 transition border-2 border-blue-600 mt-2">Chat Now</button>
+            <a href="tel:+18335732428" className="brand-button w-full sm:w-auto bg-yellow-400 text-white font-bold text-lg sm:text-xl px-6 sm:px-12 py-3 sm:py-4 rounded-lg shadow hover:bg-yellow-500 transition border-2 border-blue-600 mt-2 inline-block text-center">Call Now</a>
           </div>
           {/* Right: Request Free Consultation Form */}
           <div>

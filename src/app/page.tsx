@@ -23,7 +23,7 @@ export default function Home() {
           title: "Expert Solutions, Anytime, Anywhere—",
           subtitle: "Right At Your Fingertips",
           description: "We believe every challenge deserves a solution. That's why we offer a comprehensive range of expert services to help you tackle any computer or tablet issue—whether it's troubleshooting, repair, installation, or professional guidance.",
-          phone: "+1-470-988-9515",
+          phone: "+1 (833) 573-2428",
           buttonText: "Chat Now",
           image: "/image.png"
         });
@@ -33,7 +33,7 @@ export default function Home() {
           title: "Printer Support, Fast & Reliable",
           subtitle: "Print Without Hassle",
           description: "From setup to troubleshooting, our experts ensure your printers work seamlessly. Get help with installation, connectivity, and print quality issues.",
-          phone: "+1-470-988-9515",
+          phone: "+1 (833) 573-2428",
           buttonText: "Chat Now",
           image: "/image.png"
         });
@@ -43,7 +43,7 @@ export default function Home() {
           title: "WiFi & Network Assistance",
           subtitle: "Stay Connected, Always",
           description: "Resolve connectivity issues, optimize your network, and enjoy smooth, uninterrupted internet with our expert support.",
-          phone: "+1-470-988-9515",
+          phone: "+1 (833) 573-2428",
           buttonText: "Chat Now",
           image: "/image.png"
         });
@@ -53,7 +53,7 @@ export default function Home() {
           title: "Email Help & Support",
           subtitle: "Never Miss a Message",
           description: "Get assistance with email setup, configuration, and troubleshooting for all major providers. We help you stay connected and productive.",
-          phone: "+1-470-988-9515",
+          phone: "+1 (833) 573-2428",
           buttonText: "Chat Now",
           image: "/image.png"
         });
@@ -63,7 +63,7 @@ export default function Home() {
           title: "Antivirus & Security",
           subtitle: "Protect What Matters",
           description: "Safeguard your devices and data with our security solutions. We help with antivirus setup, malware removal, and security best practices.",
-          phone: "+1-470-988-9515",
+          phone: "+1 (833) 573-2428",
           buttonText: "Chat Now",
           image: "/image.png"
         });
@@ -73,7 +73,7 @@ export default function Home() {
           title: "Smart Home Assistance",
           subtitle: "Smarter Living, Made Easy",
           description: "From device setup to automation, our experts help you get the most out of your smart home technology.",
-          phone: "+1-470-988-9515",
+          phone: "+1 (833) 573-2428",
           buttonText: "Chat Now",
           image: "/image.png"
         });
@@ -83,7 +83,7 @@ export default function Home() {
           title: "Home Security Support",
           subtitle: "Peace of Mind, 24/7",
           description: "We assist with security system setup, troubleshooting, and monitoring so you can feel safe at home.",
-          phone: "+1-470-988-9515",
+          phone: "+1 (833) 573-2428",
           buttonText: "Chat Now",
           image: "/image.png"
         });
@@ -93,7 +93,7 @@ export default function Home() {
           title: "Ask Our Experts",
           subtitle: "Personalized Tech Advice",
           description: "Have a unique question or challenge? Our experts are ready to provide tailored solutions for any tech or appliance issue.",
-          phone: "+1-470-988-9515",
+          phone: "+1 (833) 573-2428",
           buttonText: "Chat Now",
           image: "/image.png"
         });
@@ -103,7 +103,7 @@ export default function Home() {
           title: "Expert Solutions, Anytime, Anywhere—",
           subtitle: "Right At Your Fingertips",
           description: "We believe every challenge deserves a solution. That's why we offer a comprehensive range of expert services to help you tackle any issue—whether it's technology, appliances, or something entirely unique. From troubleshooting and repair to installation and professional guidance, we're here to keep your life running smoothly.",
-          phone: "+1-470-988-9515",
+          phone: "+1 (833) 573-2428",
           buttonText: "Chat Now",
           image: "/image.png"
         });
@@ -133,7 +133,7 @@ export default function Home() {
         </p>
         <p className="max-w-2xl mx-auto text-base sm:text-lg mb-8 sm:mb-12 font-normal px-2">How can we help you today?</p>
         <div className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-extrabold mb-2 whitespace-nowrap">
-          For Quick Assistance : <span className="text-header-blue">+1-470-988-9515</span>
+          For Quick Assistance : <span className="text-header-blue">+1 (833) 573-2428</span>
         </div>
       </section>
 
@@ -353,11 +353,11 @@ export default function Home() {
             </p>
           </div>
           <a
-            href="#"
+            href="tel:+18335732428"
             className="mt-8 md:mt-0 md:ml-16 bg-yellow-400 text-white font-bold text-lg sm:text-xl md:text-2xl py-4 sm:py-6 px-8 sm:px-12 rounded transition duration-300 hover:bg-yellow-500 shadow-lg text-center w-full md:w-auto"
             style={{ minWidth: '200px' }}
           >
-            Chat Now
+            Call Now
           </a>
         </div>
       </section>

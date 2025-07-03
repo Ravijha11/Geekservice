@@ -74,11 +74,11 @@ export default function Header() {
             Refund Policy
           </Link>
           <a 
-            href="tel:+1-470-988-9515" 
+            href="tel:+18335732428" 
             className="flex items-center gap-2 bg-yellow-400 text-header-blue font-bold px-3 lg:px-4 py-2 rounded-lg shadow hover:bg-yellow-300 transition ml-2 text-sm lg:text-base"
           >
             <span role="img" aria-label="US Flag">🇺🇸</span>
-            <span>+1-470-988-9515</span>
+            <span>+1 (833) 573-2428</span>
           </a>
         </nav>
         
@@ -138,11 +138,11 @@ export default function Header() {
             Refund Policy
           </Link>
           <a 
-            href="tel:+1-470-988-9515" 
+            href="tel:+18335732428" 
             className="flex items-center gap-2 bg-yellow-400 text-header-blue font-bold px-4 py-3 rounded-lg shadow hover:bg-yellow-300 transition mt-2"
           >
             <span role="img" aria-label="US Flag">🇺🇸</span>
-            <span>+1-470-988-9515</span>
+            <span>+1 (833) 573-2428</span>
           </a>
         </nav>
       )}

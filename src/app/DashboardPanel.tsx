@@ -43,7 +43,7 @@ export default function DashboardPanel({
           <h3 className="text-2xl md:text-3xl font-bold mb-4 text-sky-600">{subtitle}</h3>
           <p className="mb-6 text-base md:text-lg text-gray-700">{description}</p>
           <div className="text-xl font-semibold mb-2">How can we assist you today?</div>
-          <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-8 rounded-lg text-lg mb-6 transition">{buttonText}</button>
+          <a href={`tel:${phone.replace(/\s/g, '')}`} className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-8 rounded-lg text-lg mb-6 transition inline-block text-center">{buttonText}</a>
           <div className="text-lg font-bold mb-2">For Quick Assistance: <span className="text-gray-800">{phone}</span></div>
           <div className="text-sm text-gray-600">Available 24/7, our experts are here to provide you with accurate answers and effective solutions. They undergo a strict verification process and are carefully selected to ensure you receive the best help possible.</div>
         </div>
